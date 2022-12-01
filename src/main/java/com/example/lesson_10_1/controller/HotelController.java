@@ -52,7 +52,6 @@ public class HotelController {
             return "Hotel not found";
         }
         hotelRepository.deleteById(id);
-
         return "Hotel deleted";
     }
 }
